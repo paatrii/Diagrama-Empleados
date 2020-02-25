@@ -14,7 +14,7 @@ classDiagram
       }
 
       class Cliente{
-         -telefono : String
+         -telefono : Integer
          -nombre : String
          -edad : Integer
          +mostrar() void
@@ -22,12 +22,12 @@ classDiagram
 
          class Empresa{
           -nombre : String
-          -Cif : String
+          -cif : String
 
       }
       class Directivo{
          -categoria : String
          -empleados_subordinados()
-         +mostrar()
+         +mostrar() void
       }
 ```
